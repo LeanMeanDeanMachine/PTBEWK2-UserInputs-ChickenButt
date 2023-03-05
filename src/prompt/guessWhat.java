@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class guessWhat {
 
     public static void main(String[] args)  {
-// System.in is a standard input stream
+
         Scanner sc= new Scanner(System.in);
         System.out.print("Guess What? ");
         String what = sc.nextLine();
